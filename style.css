@@ -1,0 +1,74 @@
+#pageHeader{
+    border-bottom: solid;
+    border-width: 2px;
+    margin-bottom: 10px;
+}
+
+#pageLogo {
+    width: 56px;
+    height: 56px;
+    margin: 10px 24px;
+    margin-right: 0px;
+}
+
+#pageTitle{
+    font-size: 32px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+#userAddCharacter{
+    vertical-align: middle;
+}
+
+#userCharacter{
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Just Another Hand', cursive;
+    vertical-align: middle;
+    height: 32px;
+}
+
+#addCharacterButton {
+    font-size: 20px;
+    height: 32px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+#characterListTitle {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-bottom: -20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.characterButton {
+    width: 80%;
+    margin: 2px auto;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 24px;
+
+}
+
+.characterButton:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(37, 37, 37);
+}
+
+#displayCharactersTitle {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.gifRating {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 18x;
+}
