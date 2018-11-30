@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Just+Another+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.4.0/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="pageHeader">
+        <div class="navbar-brand">
+            <img src="star-trek-logo.png" alt="Star Trek Badge" id="pageLogo">
+
+            <div class="navbar-item" id="pageTitle">
+                I'm Giphy-ing It All She's Got.
+            </div>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field has-addons" id="userAddCharacter">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Permission to come aboard?" id="userCharacter">
+                    </div>
+                    <div class="control">
+                        <a class="button" id="addCharacterButton">
+                            Granted
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="columns is-centered">
+        <div class="column is-one-fifth" id="sideBar">
+            <div class="columns">
+                <div class="column" id="characterListTitle">
+                    Scotty. Beam us up.
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div id="characterButtonList"></div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-three-fifths">
+            <div class="columns">
+                <div class="column" id="displayCharactersTitle">
+                    Transporter Room
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div id="displayCharacters"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="giphy.js"></script>
+</body>
+
+</html>
